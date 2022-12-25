@@ -1,0 +1,100 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Andika', sans-serif;
+}
+p{
+    margin-bottom: 0;
+    color: rgb(92, 92, 92);
+}
+.color-back{
+    background-color: #91D8E4;
+}
+.regular-padding{
+    padding: 3% 9%;   
+}
+/* -------------------- navbar ------------------ */
+.nav-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+/* ----------------- first-section -----------------*/
+.title{
+    padding: 5rem 0 1rem 0;
+    font-weight: bold;
+}
+.appointment-card{
+    padding: 2rem;
+    background-color: #6ec2d1;
+}
+.intro-icon{
+    padding: 10px;
+}
+/* ----------------- secont-section -----------------*/
+#section-2{
+    text-align: center;
+}
+.steps{
+    padding: 2%;
+}
+.step-img{
+    width: 90%;
+}
+/* ----------------- third-section -----------------*/
+.pricing-intro{
+    padding-bottom: 1rem;
+}
+/* ----------------- fourth-section -----------------*/
+.img-container{
+    text-align: center;
+}
+#founder-img{
+    width: 70%;
+    border: .5rem solid #82AAE3;
+    border-radius: 50%;
+}
+/* ----------------- fifth-section -----------------*/
+#section-5{
+    text-align: center;
+}
+.benifit{
+    padding: 1%;
+}
+.benifit-icon{
+    padding-bottom: 2%;
+}
+/* ----------------- sixth-section -----------------*/
+.accordion{
+    padding: 3% 0;
+}
+/* ----------------- seventh-section -----------------*/
+.ending-name{
+    padding: 5% 0 2% 0;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+/* ----------------- footer -----------------*/
+#copyright-msg{
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+@media (max-width:1080px){
+
+    #founder-img{
+        width: 90%;
+    }
+}
+@media (max-width:768px){
+
+    #founder-img{
+        width: 70%;
+    }
+}
